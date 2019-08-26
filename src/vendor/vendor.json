@@ -1,0 +1,74 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "qlEzrgKgIkh7y0ePm9BNo1cNdXo=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "54d8467d122d380a14768b6b4e5cd7ca4755938f",
+			"revisionTime": "2019-06-02T15:02:53Z"
+		},
+		{
+			"checksumSHA1": "VfP54LzUvfGUQuZK/seVQrnpJyo=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "9a820cf0054bcd769f785457b7dbd149a7b29fdd",
+			"revisionTime": "2019-08-16T01:10:44Z",
+			"version": "1.4"
+		},
+		{
+			"checksumSHA1": "WIzMb5VsQrOUqX2eZLcJjAIRJk4=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "9a820cf0054bcd769f785457b7dbd149a7b29fdd",
+			"revisionTime": "2019-08-16T01:10:44Z"
+		},
+		{
+			"checksumSHA1": "rST0S8cuVbM57VmJhWXhKNUkKTc=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "9a820cf0054bcd769f785457b7dbd149a7b29fdd",
+			"revisionTime": "2019-08-16T01:10:44Z"
+		},
+		{
+			"checksumSHA1": "DKWfkogvVN1sEOlx2PWTteOpY4M=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "9a820cf0054bcd769f785457b7dbd149a7b29fdd",
+			"revisionTime": "2019-08-16T01:10:44Z"
+		},
+		{
+			"checksumSHA1": "C8nYObwbo2oyODQbIT83lY37ajM=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "4c88cc3f1a34ffade77b79abc53335d1e511f25b",
+			"revisionTime": "2019-08-05T18:00:45Z"
+		},
+		{
+			"checksumSHA1": "C3Xbt5Nq5Wez3B5cyi8vQlVkP1g=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "bf9a1dea1961e1d831824fb135332bfb8c10e8b8",
+			"revisionTime": "2019-08-18T12:36:53Z"
+		},
+		{
+			"checksumSHA1": "G8ynyXzE4usXfvjeS1Kv521PTbU=",
+			"path": "github.com/shengkehua/xlog4go",
+			"revision": "9ec09ccd39228646075c8f1c84ea6ecebcc060f7",
+			"revisionTime": "2015-06-04T10:22:13Z"
+		},
+		{
+			"checksumSHA1": "8mJ7vjP4pj4Y8FH5jVT22mW5acA=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "42bc974514ff101a54c6b72a0e4dee29d96c0b26",
+			"revisionTime": "2019-08-12T10:43:08Z"
+		},
+		{
+			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "QqDq2x8XOU7IoOR98Cx1eiV5QY8=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"revisionTime": "2018-11-15T11:05:04Z"
+		}
+	],
+	"rootPath": "github.com/szu-icu/stretcher/src"
+}
