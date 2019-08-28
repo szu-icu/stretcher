@@ -4,6 +4,9 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-func main() {
-	fmt.Println("vim-go")
+var db *gorm.DB
+
+func Setup() {
+	var err error
+
 }

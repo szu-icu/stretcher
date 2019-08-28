@@ -17,7 +17,11 @@ func init() {
 		fmt.Println("Fail to init Logger")
 		return
 	}
-	setting.Setup()
+	err = setting.Setup()
+	if err != nil {
+		log.Fatal("Fail to init settings")
+		return
+	}
 }
 
 func main() {

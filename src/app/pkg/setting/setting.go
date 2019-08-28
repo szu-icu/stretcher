@@ -36,23 +36,25 @@ var RedisSetting = &Redis{}
 
 var cfg *ini.File
 
-func Setup() {
+func Setup() (err error) {
 	log.Info("init settings")
-	var err error
 	confPath := "conf/app.ini"
 	cfg, err = ini.Load(confPath)
 	if err != nil {
 		log.Fatal("setting setup: error to parse %s.", confPath)
+		return
 	}
 
-	mapTo("service", ServiceSetting)
-	mapTo("database", DatabaseSetting)
-	mapTo("redis", RedisSetting)
+	err = mapTo("service", ServiceSetting)
+	err = mapTo("database", DatabaseSetting)
+	err = mapTo("redis", RedisSetting)
+	return
 }
 
-func mapTo(section string, v interface{}) {
-	err := cfg.Section(section).MapTo(v)
+func mapTo(section string, v interface{}) (err error) {
+	err = cfg.Section(section).MapTo(v)
 	if err != nil {
 		log.Error("Cfg.MapTo %s err: %v", section, err)
 	}
+	return
 }
