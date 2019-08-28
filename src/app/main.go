@@ -1,6 +1,7 @@
 package main
 
 import (
+	"app/models"
 	"app/pkg/setting"
 	"app/router"
 	"fmt"
@@ -18,6 +19,7 @@ func init() {
 		return
 	}
 	setting.Setup()
+	models.Setup()
 }
 
 func main() {
