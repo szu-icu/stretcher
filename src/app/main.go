@@ -1,6 +1,7 @@
 package main
 
 import (
+	"app/models"
 	"app/pkg/setting"
 	"app/router"
 	"fmt"
@@ -17,11 +18,8 @@ func init() {
 		fmt.Println("Fail to init Logger")
 		return
 	}
-	err = setting.Setup()
-	if err != nil {
-		log.Fatal("Fail to init settings")
-		return
-	}
+	setting.Setup()
+	models.Setup()
 }
 
 func main() {
